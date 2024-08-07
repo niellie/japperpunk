@@ -104,3 +104,12 @@ p {
   background-color: #fff;
   color: #000;
 }
+
+/** Break points **/
+
+/* Tablet */
+@media only screen and (max-width: 1023px) and (min-width: 993px) {
+    .thumbnail-section {
+    background-color:#276ef1 !important;
+}
+}
