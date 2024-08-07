@@ -1,0 +1,106 @@
+body {
+    font-family:Roboto;
+}
+
+h1 {
+    font-size:50px;
+    font-weight:bold;
+}
+
+h2 {
+    font-size:40px;
+    font-weight:bold;
+}
+
+h3 {
+    font-size:30px;
+}
+
+h4 {
+    font-size:22px;
+}
+
+p {
+    font-size:18px;
+}
+
+.container {
+    padding: 80px 120px;
+  }
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+  }
+
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+
+// Container
+
+.carousel-inner img {
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%); /* make all photos black and white */
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+}
+
+.carousel-caption h3 {
+  color: #fff !important;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+
+/* Remove rounded borders from list */
+.list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Remove border and add padding to thumbnails */
+
+.thumbnail-section {
+    background-color:#89e872;
+        padding-top:80px;
+    padding-bottom:80px;
+}
+
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+
+.thumbnail p {
+  margin-top: 15px;
+  color: #555;
+}
+
+/* Black buttons with extra padding and without rounded borders */
+.btn {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #f1f1f1;
+  border-radius: 0;
+  transition: .2s;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover, .btn:focus {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #000;
+}
